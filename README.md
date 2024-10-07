@@ -76,6 +76,7 @@ python manage.py runserver
 Access the Application:
 
 Open a web browser and navigate to http://127.0.0.1:8000/
+
 Usage
 1. Adding a New User
 Click the "Add New User" button.
