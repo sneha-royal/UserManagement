@@ -2,20 +2,6 @@ User Management Application
 This is a Django-based web application for managing user details, including first name, last name, phone number, email ID, and address. The application provides CRUD (Create, Read, Update, Delete) operations and includes form validation to ensure data integrity.
 
 
-Table of Contents
-
-Features
-
-Technology Stack
-
-Requirements
-
-Installation
-
-Usage
-
-Project Structure
-
 
 Features
 User Interface:
@@ -74,6 +60,7 @@ Clone the Repository:
 bash
 Copy code
 git clone https://github.com/sneha-royal/UserManagement.git
+
 cd UserManagement
 Set up a Virtual Environment (optional but recommended):
 
@@ -83,10 +70,6 @@ python -m venv venv
 source `venv\Scripts\activate`
 Install Dependencies:
 
-bash
-Copy code
-pip install -r requirements.txt
-Run Migrations:
 
 bash
 Copy code
@@ -110,30 +93,3 @@ Click the "Edit" button next to a user to modify their details.
 4. Deleting a User
 Click the "Delete" button next to a user. Confirm deletion on the confirmation page.
 
-Project structure
-user-management/
-│
-├── users/
-│   ├── migrations/
-│   ├── templates/
-│   │       ├── user_list.html
-│   │       ├── user_form.html
-│   │       └── user_confirm_delete.html
-│   ├── __init__.py
-│   ├── admin.py
-│   ├── apps.py
-│   ├── forms.py
-│   ├── models.py
-│   ├── tests.py
-│   └── views.py
-│
-├── user_management/
-│   ├── __init__.py
-│   ├── asgi.py
-│   ├── settings.py
-│   ├── urls.py
-│   └── wsgi.py
-│
-├── manage.py
-├── requirements.txt
-└── README.md
