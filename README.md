@@ -1,43 +1,73 @@
 User Management Application
 This is a Django-based web application for managing user details, including first name, last name, phone number, email ID, and address. The application provides CRUD (Create, Read, Update, Delete) operations and includes form validation to ensure data integrity.
 
+
 Table of Contents
+
 Features
+
 Technology Stack
+
 Requirements
+
 Installation
+
 Usage
-Testing
+
 Project Structure
-License
+
 
 Features
 User Interface:
 
 Responsive and user-friendly interface built with Django Templates and Bootstrap.
+
 Intuitive form for adding and editing user details.
+
 Table view for displaying all users with options to edit or delete.
+
 Confirmation dialog for user deletion.
+
 CRUD Operations:
 
+
 Create: Add a new user with form validation.
+
 Read: View a list of all users.
+
 Update: Modify existing user details.
+
 Delete: Remove user records with confirmation.
+
 Form Validation:
 
 Ensures valid input for each field with helpful error messages.
+
 Checks for unique email addresses to prevent duplicate entries.
+
+
 Technology Stack
+
 Backend: Django (Python)
+
 Frontend: Django Templates, HTML, CSS (Bootstrap)
+
 Database:  MySQL
+
 Environment: Python 3.x, Django 4.x
+
+
 Requirements
+
 Python 3.x
+
 Django 4.x
+
 SQLite (default for Django, no setup needed)
+
 Bootstrap (included via CDN in templates)
+
+
 Installation
 Clone the Repository:
 
