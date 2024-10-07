@@ -57,28 +57,22 @@ Bootstrap (included via CDN in templates)
 Installation
 Clone the Repository:
 
-bash
-Copy code
 git clone https://github.com/sneha-royal/UserManagement.git
 
 cd UserManagement
-Set up a Virtual Environment (optional but recommended):
 
-bash
-Copy code
+Set up a Virtual Environment (optional but recommended):
 python -m venv venv
 source `venv\Scripts\activate`
+
 Install Dependencies:
 
-
-bash
-Copy code
 python manage.py migrate
+
 Start the Development Server:
 
-bash
-Copy code
 python manage.py runserver
+
 Access the Application:
 
 Open a web browser and navigate to http://127.0.0.1:8000/
